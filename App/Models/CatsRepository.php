@@ -9,7 +9,6 @@ class CatsRepository extends Repository
 {
     public function __construct()
     {
-        Db::getPdo();
-        parent::__construct('cats', 'id', '\\App\\Db');
+        parent::__construct('cats', 'id', 'myCats');
     }
 }

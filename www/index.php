@@ -12,4 +12,4 @@ require dirname(__DIR__).'/vendor/autoload.php';
 $router = new \Md\Http\Router('App', __DIR__);
 
 /** Run App */
-\Md\App::run($router);
+\App\Application::run($router);
