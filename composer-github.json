@@ -1,0 +1,28 @@
+{
+    "name": "mdevoldere/edu-php-mvc-skeleton",
+    "type": "project",
+    "license": "GPL3",
+    "authors": [
+        {
+            "name": "MDevoldere",
+            "email": "dev@devoldere.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/mdevoldere/edu-php-mvc.git"
+        }
+    ],
+    "require": {
+      "php" : ">=7.4",
+      "ext-mbstring": "*",
+      "mdevoldere/edu-php-mvc": "dev-mdevoldere"
+    },
+    "autoload": {
+      "psr-4": {
+          "App\\": "App"
+      }
+    }
+}
