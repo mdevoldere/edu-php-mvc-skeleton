@@ -5,11 +5,11 @@
 */
 
 
- /** Autoloader */
+/** Autoloader */
 require dirname(__DIR__).'/vendor/autoload.php';
 
 /** Set IRouter */
 $router = new \Md\Http\Router('App', __DIR__);
 
 /** Run App */
-\App\Application::run($router);
+\Md\App::run($router);

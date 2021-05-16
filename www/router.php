@@ -14,7 +14,7 @@ if(file_exists(__DIR__.$_SERVER['REQUEST_URI'])) {
 }
 
 /**
- * PHP doesn't consider favicon to be a file, let's fix it !
+ * Server doesn't consider favicon to be a file, let's fix it !
  */
 if($_SERVER['REQUEST_URI'] === '/favicon.ico') {
     return false;
